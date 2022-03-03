@@ -30,7 +30,7 @@ print(houses[0])
 print()
 n = int(len(houses)) - 1
 count = 0
-while count <= 5:  # count <= n
+while count <= 10:  # count <= n
     info = houses[int(count)]
     price = info.find('span',{"class":"snippet-price"}).text
     title = info.find('a',{"class":"snippet-link"}).text
